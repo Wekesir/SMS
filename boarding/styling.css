@@ -1,0 +1,121 @@
+html,body{
+    height: 100%;
+}
+.themeColor{
+      background-color: #004A80;
+      color:white;
+}
+.navbar{
+     background-color: #004A80;
+      color:white;
+}
+#mainDormsDiv{
+    width:90%;
+    left:5%;
+    top:10%;
+    position: absolute;
+}
+#mainDormsDiv #head{
+    background-color:#F5F5F5;
+    padding:5px;
+}
+#mainDormsDiv #body{
+    height:100px;
+    background-color:white;
+}
+#mainDormsDiv #footer{
+    padding:5px;
+}
+.col-md-4{/*this is the left side of the page*/
+padding-left:0px;
+}
+.col-md-8{/*This is the right side of the page*/
+     
+     overflow:auto;
+}
+#divmanagementDiv{/*wrapper div fro the left sidebar*/
+        padding: 10px;
+        background-color:#F8F8F8;
+        height: 91.2vh;
+        margin-bottom: 0px;
+    }
+    #divmanagementDiv h6{
+        font-weight:bold;
+        background-color:#F0F0F0;
+        padding:10px;
+    }
+    #body label{/*label showing the number of students*/
+    font-size:50px;
+    font-weight:lighter;
+    }
+    #body h4{/*main div label for students*/
+        font-size:15px;
+        font-weight:normal;
+    }
+    #employeesDiv{
+        display:none;
+    }
+   #employeesDiv #body{
+        height: 72.5vh;
+        overflow: auto;
+    }
+    #employeesDiv #footer{
+        background-color:#dcdcdc;
+        margin-top:10px;              
+    }
+    #studentsDiv{
+        display:none;        
+    }
+    #studentsDiv #body{
+        height: 72.5vh;
+        overflow: auto;
+    }
+    #studentsDiv #footer{
+        background-color:#dcdcdc;
+        margin-top:10px;  
+    }
+    #studdentsearchDiv input[type="search"]{
+        width: 90%;
+        padding: 5px;
+        left:5%;
+        margin-bottom: 5px;
+    }
+    #dormname{
+        font-size: 26px;
+        text-decoration:none;
+        font-weight:lighter;
+        margin-bottom: 40px;
+    }
+    #addstudentsBtn{/**This is the button for adding students to a dorm */
+        border-radius: 50px;
+        position:fixed;
+        bottom: 7%;
+        right: 2%;
+        padding: 5px;
+        outline:none;
+    }
+    #refresh{/**this is the button for refreshing page */
+        border-radius: 50px;
+        position:fixed;
+        bottom: 15%;
+        right: 2%;
+        padding: 5px;
+        outline:none;
+    }
+     .addstudentsBtn{
+         position: fixed;
+        bottom:10px;
+        right: 10px;
+        margin: 10px;
+        color:white;
+        padding:10px;
+   
+     
+       border-radius: 50%;
+       /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    }
+    #tableContainer{/*****container for displaying students once add student button has been clicked*****/
+        height: 82.5vh;
+        overflow:auto;
+    }
+  

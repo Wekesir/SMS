@@ -1,0 +1,157 @@
+.navbar{
+    background-color: #004A80;
+    color:white;
+}
+.navbar .navbar-brand{
+    color:white;
+}
+.navbar .dropdown-menu {
+    background-color:lightgrey;
+}
+.navbar .dropdown-menu .dropdown-item{
+    color:black;
+}
+.navbar .dropdown-menu .dropdown-item:hover{
+    background-color:lightgrey;
+    color:black;
+}
+.navbar .dropdown a{
+    color:white;
+}
+.theme_color{
+    background-color: #004A80;
+    color:white;
+}
+.small_font{font-size: 14px;}
+.exsmall_font{font-size: 11px;}
+.dashboard_wrapper{
+    width:100%;
+    height: 91.5vh;
+    border-right:1px solid black;
+    background:#004A80;
+}
+.dashboard_wrapper ul li a{
+    color:white;
+}
+.dashboard_wrapper ul li a:hover{
+    color:white;
+}
+.dashboard_wrapper ul li {
+    display:block;
+}
+.dashboard_wrapper ul li:hover {
+    display:block;
+    background-color:black;   
+}
+.dashboard_wrapper ul li .active{
+     display:block;
+    background-color:black;
+    color:white;
+}
+
+#searchDiv input[type="search"]{
+    width:60%;
+    /* border: 1px solid #dcdcdc; */
+    outline:none;
+    /* text-indent: 10px; */
+    padding:5px;
+    margin-bottom:5px;
+    /* margin-left: 10%; */
+}
+#searchDiv #student_search_data{
+    width: 57%;
+    background-color: white;
+    border:1px solid lightgray;
+    border-top:none;
+    left:220px;
+    padding :0px ;
+    position: absolute;
+}
+#searchDiv #student_search_data ul li{
+   list-style:none;
+}
+#searchDiv #student_search_data ul li:hover{
+   background-color:#d3d3d3;
+}
+#searchDiv #student_search_data a:hover{
+  text-decoration:none;
+}
+thead{
+    background-color:#d3d3d3;
+}
+tbody tr:hover{
+    background-color: #d3d3d3;
+}
+#wrapper{
+    background-color:white;
+    padding:5px;
+}
+#changepassworddiv,#make_payment_div{
+    width: 70%; 
+    position: absolute;
+    left: 12%;
+    top:10%;
+    background-color:white;
+    padding:20px;
+    box-shadow:5px 5px lightgrey;
+}
+#updateprofilediv{
+    width: 70%; 
+    position: absolute;
+    left: 12%;
+    top:0%;
+    background-color:white;
+    padding:20px;
+    box-shadow:5px 5px lightgrey;
+}
+.sidenav{
+    width:100%;
+    color:white;
+    background:grey;
+}
+.sidenav ul li{
+    list-style:none;
+    color:white;
+}
+.pagination{
+    margin-bottom:5px;
+}
+.row .col-md-3{
+    padding:0px;
+}
+.round-border{/*this class gives container borders a round feel*/
+    border-radius:25px;
+    padding:5px;
+}
+.circle{/*this class makes elements circle*/
+    border-radius:50%;
+    padding:5px;
+}
+.full-length{
+    width:100%;
+}
+#insertComplainDiv{
+    padding: 20px;
+    position:absolute;
+    background-color:white;
+    left: 20%;
+    width: 60%;
+    top: 12vh;
+    border: 1px solid #f8f8f8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display:none;
+}
+#addComplainbtn{ 
+    border-radius: 50%;
+    padding: 10px;
+    position:fixed;
+    bottom: 10%;
+    right: 12%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.spinner-border{
+    display:none;
+}
+.spinner-border.active{
+    display:inline-block;
+}

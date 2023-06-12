@@ -1,0 +1,459 @@
+.navbar{
+    width: 100%;
+    color: white;
+    margin-bottom:0px;
+}
+.navbar .container .navbar-brand{
+   color: white;
+}
+.navbar .container ul li a{
+    text-decoration: none;
+    color: gray; 
+    display: block;
+    float: right;    
+    font-size: 15px;
+}
+
+.navbar .container ul li .active{  
+    color: white;
+}
+.navbar .container{
+    background-image:hsl(300, 100%, 25%);
+}
+
+body{
+    background-color: #dcdcdc;
+}
+#searchDiv{
+    width:100%;
+    padding: 1px;
+    position:relative;
+    border:none;
+    margin-bottom: 5px;
+    display:none;
+}
+#searchDiv > input[type="search"]{
+    width:60%;
+    border: 2px solid #d3d3d3;
+    outline:none;
+    margin-left: 20%;
+    text-indent: 5px;
+    font-style: 15px;
+    padding: 5px;
+}
+#searchDiv #student_search_data,#searchDiv #staff_search_data{
+    width: 60%;
+    background-color: white;
+    border:1px solid lightgray;
+    padding-top :5px ;
+    position: absolute;
+    margin-left: 20%;
+}
+
+.pagination{
+    margin-bottom:5px;
+}
+.small_font{font-size: 14px;}
+.exsmall_font{font-size: 11px;}
+label{
+    padding:5px;
+}
+#addbookdiv{/*this div is hidden by default*/
+    background:#e9e9e9;
+    position: fixed;
+    background:white;
+    width: 25%;
+    top: 40%;
+    left: 40%;
+    padding: 20px;
+}
+#addbookdiv input[type="submit"]{
+    background:#d3d3d3;/*sets the background of the submit button in the add book div*/
+}
+.addStaffBtn{/*this is the add staff button*/
+    color:white;
+    border-radius: 50%; 
+    position: fixed; 
+    right: 2%; 
+    bottom: 10%;
+}
+.addStudentBtn{/*button for adding student*/
+    border-radius: 50%;
+    position: fixed; 
+    right: 2%; 
+    bottom: 5%;
+    padding: 10px;
+    color:white;
+}
+.printStudentBtn{
+    border-radius: 50%;
+    position: fixed; 
+    right: 2%; 
+    bottom: 13%;
+    padding: 12px;
+    color:white;
+}
+.addStaffBtn:hover{
+    opacity:1;
+    color:white;
+}
+.applicationsdiv{
+     -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+}
+table .full-length{
+    width:100%;
+}
+.table-highlght thead{/*applies the table highlight to tables with this claaa*/
+    background-color:#dcdcdc;
+}
+.table-highlight tbody tr:hover{/*appliess the hoverig property to tables with the table-highlight class only*/
+    background-color: #dcdcdc;
+}
+.theme_color{
+    background-color: #004A80;
+    color:white;
+}
+#dash_wrapper{     /********SIDENAV**************/
+    background-color:#003366;
+    /* color:BLACK; */
+    width:100%;
+    padding:0px;
+    height:91vh;
+    overflow:auto;
+}
+#wrapper{
+    background-color:white;
+    padding:5px;
+    height:91vh;
+    overflow:auto;
+}
+#dash_wrapper ul li a{
+    color:white;
+}
+#dash_wrapper ul li a:hover{
+    color:white;
+}
+#dash_wrapper ul li {
+    display:block;
+}
+#dash_wrapper ul li:hover {
+    display:block;
+    background-color:black;
+    border-right-color:5px solid #004A80;
+}
+#dash_wrapper ul li .active{
+     display:block;
+    background-color:#004A80;
+    color:white;
+}
+#innnerContainer{
+    position: relative;
+    left:10%;
+    width: 80%;
+    border: 1px solid lightgrey;
+    height: 78vh;
+    overflow: scroll;
+    padding: 10px;
+    background: #f0f0f0;
+}
+#innnerContainer #messageDiv{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    padding: 5px;
+    background: white;
+}
+#innnerContainer #messageDiv > #header, #innnerContainer #messageDiv > #footer{
+    font-size: 15px;
+}
+#emp-salaries-searchResults{
+    width: 90%;
+    margin: 15px auto 10px;
+    border: 1px solid lightgrey;
+    height: 65vh;
+    padding: 10px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+#emp-salaries-searchResults::-webkit-scrollbar {
+    display: none;
+}
+#search-employee-div{
+    border: 1px solid lightgray;
+    padding: 10px 0px;
+    border-radius: 30px;
+    width: 90%;
+    margin: 0px auto;
+}
+#search-employee-div span{
+    border: none;
+    outline: none;
+}
+#search-employee-div input[type="search"]{
+    border: none; 
+    outline: none;
+}
+#search-employee-div input[type="search"]:focus{
+    /* outline:none; */
+    border: none;
+    border-color: rgba(126, 239, 104, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+    outline: 0 none;
+}
+.visible{
+    display:block;
+}
+#financesearchdata, #salariessearchdata{
+    border:1px solid lightgrey;
+    width:600px;
+    position:absolute;
+    left:20%;
+    top:47%;
+    border:1px solid #dcdcdc;
+    padding-top:5px;
+    text-align: left;
+     display: none;
+}
+#financesearchdata ul li, #salariessearchdata ul li{
+    color:black;
+    list-style:none;
+}
+#financesearchdata ul li:hover, #salariessearchdata ul li:hover{
+    background-color:#dcdcdc;
+}
+.menu{
+    padding:5px;
+    box-shadow:2px 2px lightgray;
+    margin-bottom:10px;
+}
+.menu a{
+    color:black;
+    text-decoration:none;
+    background-color:#f5f5f5;   
+    padding:5px;
+}
+.menu a:hover{
+    text-decoration:none;
+    background-color:#f8f8f8;
+    padding:5px;
+}
+#changePasswordBody{
+    width:100%;
+    height:91.5vh;
+    background-color:#dcdcdc;
+    background:url('https://bamboozle.me/wp-content/uploads/2019/01/Bamboozle-Secure-Password-Wallpaper-1-900x450.jpg')no-repeat;
+    background-size:cover;
+    position:absolute;
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    }
+#changepasswordDiv{
+    background-color:white;
+    padding:30px;
+    border-radius:10px;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top:15%;
+}
+#updateprofilediv{
+    width: 50%; 
+    position: relative;
+    left: 25%;
+    background-color:white;
+    padding:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.row{
+    background:white;
+}
+.row .col-md-3{
+    padding:0px;
+}
+.round-border{/*this class gives container borders a round feel*/
+    border-radius:25px;
+    padding:5px;
+}
+.circle{/*this class makes elements circle*/
+    border-radius:50%;
+    padding:5px;
+}
+.full-length{
+    width:100%;
+}
+.docSearchDiv{/*this is te search div for searching school documents*/
+    display:none;
+}
+#filterDiv{/*this is the div that pops up when the fiter button is clicked*/
+    position: fixed;
+    background-color: white;
+    width: 30%;
+    padding: 15px;
+    right: 1%;
+    top: 55px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display:none;
+}
+#configDiv{
+    width: 90%;
+    position:relative;
+    left: 5%;        
+    padding:30px;
+    background:white;
+}
+.titleHeader{/*HEADINGS*/
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.counter{
+    text-align: center;
+    font-weight:lighter;
+}
+.counter-count{
+    font-size: 100px;
+    font-weight: lighter;
+    position: relative;
+    color: #000000;
+    text-align: center;
+    display: inline-block;
+}
+.text-shadow{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+#gall_Images_InputDiv{
+    padding: 20px;
+    position:absolute;
+    top: 10px; 
+    border: 1px solid #dcdcdc;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:white;
+}
+#addWebImageBtn{
+    position:fixed;
+    bottom: 10%;
+    right: 2%;
+    border-radius: 50%;
+    padding: 15px;
+}
+ #forecastDiv{/*the forecast div*/
+     padding: 15px;
+     width: 100%;
+     height:300px;
+     border: 1px solid black;
+     background-color:white;
+     background:url("https://c.tadst.com/gfx/750w/weather-station.jpg");
+     background-size:cover;
+     background-repeat:no-repeat;
+     background-position:center;
+     color:white;
+ }
+ #forecastDiv input[type="text"]{
+     outline:none;
+     border: 1px solid white;
+     color:white;
+     background:	none;
+ }
+  .loader.active {
+    border: 12px solid #f3f3f3; /* Light grey */
+    border-top: 12px solid red; /* Blue */
+    /* border-bottom: 12px solid blue; */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+    display:block;
+}
+ .loader {
+   display:none;
+}
+.spinner-border{
+    display:none;
+}
+.spinner-border.active{
+    display:inline-block;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+#menuDiv{
+    background-color:#e7ebfe;
+    border: 1px solid #f8f8f8;
+    width: 100%;
+    padding: 2px;
+    height: 50px;
+    margin-bottom:5px;
+    margin-top:5px;
+}
+#menuDiv ul{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+    background-color:#e7ebfe;
+}
+#menuDiv ul a{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:600;
+	font-size:12px;
+	line-height:40px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+#menuDiv ul li{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+#menuDiv ul li:hover{
+    background:#b3c3fb;
+}
+#menuDiv ul li.main_list:hover{
+    background:#b3c3fb;
+    border-bottom: 2px solid #ffffff;
+}
+#menuDiv ul ul{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#f8f8f8;
+	padding:0
+}
+#menuDiv ul ul li{
+	float:none;
+	width:200px
+}
+#menuDiv ul ul li{
+	float:none;
+	width:200px
+}
+
+#menuDiv ul ul a{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#menuDiv ul ul ul{
+	top:0;
+	left:100%
+}
+
+#menuDiv ul li:hover > ul{
+	display:block
+}
+a[disabled] {/*disbaling a link*/
+    pointer-events: none;
+}

@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+.themeColor{
+    background-color:#004A80;
+    color:white;
+}
+.jumbotron{
+    background-color:white;
+    padding:5px;
+    margin-bottom:0px;
+}
+.jumbotron img{
+    height:90px;
+    width:90px;
+}
+.jumbotron #schoolname{
+    font-weight:bold;
+}
+.jumbotron #motto{
+    font-family:'Dancing Script', cursive;
+    font-size:14px;
+    font-weight:bold;
+}
+body{
+    background:#d3d3d3;
+}
+
+@media screen and (max-width:500px){/*mobile view */
+
+    body{
+        background:white;
+    }    
+}
+
+#newStaffDiv{
+    width: 1100px;
+    border: 1px solid black;
+    position: absolute;
+    left: 200px;
+    padding: 15px;
+    margin-top:10px;
+}
+#imageDiv{
+    width: 100%;
+    height: 70%;
+    border:1px solid black;
+}
+body{
+    background: url('../school_images/IMG-20190224-WA0207.jpg') no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    margin: 0px;
+    padding: 0px;  
+}
+.container{
+    background-color:white;
+    padding:0px;
+}
+#logo{
+    height:50px;
+    padding:0px;
+    margin:0px;    
+}
+.navbar{
+    background-color:#004A80;
+    font-size:15px;
+    opacity:1;
+}
+.navbar button{
+    color:white;
+    background-color:#004A80;
+    border-color: white;
+    outline:none;
+}
+.navbar .navbar-toggler{
+    color:white;
+}
+.navbar .navbar-toggler span{
+    color:white;
+}
+.navbar #list a{
+    color:white;
+}
+.navbar #list a:hover{
+    color:black;
+}
+.navbar ul li .active a{
+    color:black;
+}
+.navbar #list:hover{
+    color:black;
+   
+}
+.navbar #list_dropdown a{
+    color:white;
+}
+
+#header_wrapper{
+    padding:5px;
+    margin-bottom:5px;
+}
+.navbar #list_dropdown #dropdown_item{
+    font-size: 12px;
+    color:black;
+}
+.navbar #list_dropdown:hover .dropdown-menu{
+    display:block;
+}
+ .navbar #list_dropdown #dropdown_item:hover{
+    text-decoration:underline;
+    font-size: 12px;
+    color:red;
+}
+.navbar #loginBtn{
+    border:1px solid #004A80;
+}
+.navbar #loginBtn:hover{
+    border-radius:20px;
+    border:1px solid white;
+}
+.small_font{
+    font-size:12px;
+}
+.extra_small{
+    font-size: 10px;
+}
+#carousel{
+    height:100%;
+    margin:0px;
+    padding:0px;
+    background-color:#d3d3d3;
+}
+#carousel .carousel-item{
+    width: 100%;
+    height: 500px;
+    text-align:center;
+}
+#carousel .carousel-item h5{
+    font-weight:bold;
+} 
+#carousel .carousel-item .caption{
+    background-color:black;
+    color:white;
+    opacity:.8;
+    position: absolute;
+    bottom: 0px;
+    min-height:200px;
+    width: 100%;
+    padding-bottom:5px;
+}
+#carousel img{
+    width: 100%;
+    height: 100%;
+}
+#school_news{
+    background-color:#f8f8f8;
+    padding:10px;
+    width:100%;
+    height: 500px;
+    margin:0px;
+}
+#school_news h5{
+    background-color:#e0e0e0;
+    color:black;
+    height:40px;
+    line-height: 35px;
+}
+#accordion h6{
+    background-color: #f0f0f0;
+    color:black;
+    line-height:30px;
+    text-indent:10px;
+    font-weight:lighter;
+}
+#accordion #accordionBody{
+    background-color: white;
+    padding-left:5px;
+}
+#contact_us{
+    margin:0px;
+    padding-bottom:100px;
+    background:url("../school_images/contactus.jpg") no-repeat;
+    background-size:cover;
+}
+@media screen and (max-width:900px){
+
+   #contact_us .contact_div{
+    background:grey;
+    border:1px solid black;
+    position:relative;
+    top:20%;
+    height:60%;
+    margin-left:10%;
+    width:80%;
+    padding:30px;
+    opacity:.9;
+    color:white;
+    } 
+
+}
+@media screen and (min-width:900px){
+
+    #contact_us .contact_div{
+        background:grey;
+        border:1px solid black;
+        position:relative;
+        top:20%;
+        height:60%;
+        left:30%;
+        width:40%;
+        padding:30px;
+        opacity:.9;
+        color:white;
+    }
+
+}
+
+#contact_us h4{
+background:none;
+color:white;
+line-height: 100px;
+font-weight:bold;
+font-size:30px;
+}
+#about_us h4{
+background:none;
+color:black;
+line-height: 100px;
+font-weight:bold;
+font-size:30px; 
+}
+#about_us #contentWrapper{
+min-height: 300px;
+width: 100%;
+border: none;
+margin-top: 10px;
+border-radius: 30px;
+background: #f8f8f8;
+padding: 20px;
+}
+#about_us #contentWrapper > #header{
+    text-align:center;
+    font-weight: in;
+}
+#gallery h4{
+background:none;
+color:black;
+line-height: 100px;
+font-weight:bold;
+font-size:30px; 
+}
+#contact_us button[type='submit']{
+    border-radius: 20px;
+    background-color:black;
+    color:white;
+    opacity:.8;
+}
+#about_us{
+    background-color:white;
+    margin:0px;
+    min-height:500px;
+}
+#about_us .info{
+    font-size: 20px;
+}
+#about_us p{
+    padding-top:20px;
+}
+#about_us img{
+    height:50px; width: 50px;
+}
+#gallery{
+    background:white;
+    padding-bottom:100px;
+}
+#gallery #imageContainer:hover{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#gallery #imageContainer{
+    padding-top:25px;
+    padding-bottom:10px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#gap{
+    background:none;
+    width:40px;
+    color:black;
+}
+#footer_div{
+    background-color:black;
+    height:20%;
+}
+#footer_div #copyright{
+   color:white;
+}
+#footer_div #top{
+   color:white;
+}
+
+.round-border{/*this class gives container borders a round feel*/
+    border-radius:25px;
+    padding:5px;
+}
+.circle{/*this class makes elements circle*/
+    border-radius:50%;
+    padding:5px;
+}
+.print-button{
+    border-radius: 30px;
+    padding:5px;
+}
+a[disabled] {/*disbaling a link*/
+    pointer-events: none;
+}
+.spinner-border{
+    display: none;
+}
+.spinner-border.active{
+    display: inline-block;
+}
+#menuDiv{
+    background-color:#e7ebfe;
+    border: 1px solid #f8f8f8;
+    width: 100%;
+    padding: 2px;
+    height: 50px;
+    margin-bottom:5px;
+    margin-top:5px;
+}
+#menuDiv ul{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+    background-color:#e7ebfe;
+}
+#menuDiv ul a{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:600;
+	font-size:12px;
+	line-height:40px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+#menuDiv ul li{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+#menuDiv ul li:hover{
+    background:#b3c3fb;
+}
+#menuDiv ul li.main_list:hover{
+    background:#b3c3fb;
+    border-bottom: 2px solid #ffffff;
+}
+#menuDiv ul ul{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#f8f8f8;
+	padding:0
+}
+#menuDiv ul ul li{
+	float:none;
+	width:200px
+}
+#menuDiv ul ul li{
+	float:none;
+	width:200px
+}
+
+#menuDiv ul ul a{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#menuDiv ul ul ul{
+	top:0;
+	left:100%
+}
+
+#menuDiv ul li:hover > ul{
+	display:block
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 15px;
+  margin-right: 2px;
+  margin-left: 2px;
+  margin-bottom: -20px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.switch .slider:before {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  left: 4px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.switch  input:checked + .slider {
+  background-color: #2196F3;
+}
+
+.switch input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+.switch  input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.switch  .slider.round {
+  border-radius: 34px;
+}
+
+.switch .slider.round:before {
+  border-radius: 50%;
+}
+
